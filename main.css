@@ -1,0 +1,16 @@
+body{
+    background-color: #D0EEFF;
+
+}
+
+@media only screen and (min-width: 320px) {
+    .header__banner{
+        border-top-right-radius: 150px;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .header__banner{
+        border-top-right-radius: 0px;
+    }
+  }
